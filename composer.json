@@ -1,0 +1,17 @@
+{
+	"name": "flynn314/console",
+	"description": "Help library to format console output",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": "^7.4",
+		"symfony/console": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Flynn314\\Console\\": "src"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

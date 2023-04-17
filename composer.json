@@ -4,7 +4,7 @@
 	"type": "library",
 	"license": "MIT",
 	"require": {
-		"php": "^7.4|^8.2",
+		"php": "^7.4|^8.1|^8.2",
 		"symfony/console": "*"
 	},
 	"autoload": {

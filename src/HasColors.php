@@ -58,7 +58,7 @@ trait HasColors
      *
      * @see setCode()
      */
-    protected function execute(InputInterface $input, OutputInterface $output): ?int
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         if (function_exists('pcntl_signal')) {
     	    declare(ticks=1);
